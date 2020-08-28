@@ -34,7 +34,7 @@ public class MpsController {
 	
 	private Gson gson = new Gson();
 
-	//2020-08-24 진형욱 메서드 수정::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+	//2020-08-28 진형욱 메서드 수정::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 	@RequestMapping("/searchMpsInfo.do")
 	public ModelMap searchMpsInfo(HttpServletRequest request, HttpServletResponse response) {
 
